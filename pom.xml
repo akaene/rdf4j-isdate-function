@@ -6,7 +6,7 @@
 
     <groupId>com.akaene.sisel</groupId>
     <artifactId>rdf4j-isdate-function</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1</version>
 
     <properties>
         <java.version>17</java.version>
@@ -22,6 +22,19 @@
             <artifactId>rdf4j-queryalgebra-evaluation</artifactId>
             <version>3.7.7</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.9.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.9.0</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
