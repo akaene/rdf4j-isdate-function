@@ -23,14 +23,9 @@ import java.time.format.ResolverStyle;
  */
 public class IsDate implements Function {
 
-    /**
-     * Function namespace.
-     */
-    public static final String NAMESPACE = "http://akaene.com/ontologies/rdf4j/function/";
-
     @Override
     public String getURI() {
-        return NAMESPACE + "isDate";
+        return "http://akaene.com/ontologies/rdf4j/function/isDate";
     }
 
     @Override

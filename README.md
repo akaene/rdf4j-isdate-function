@@ -5,6 +5,8 @@ to check that the specified value is a date corresponding to the specified forma
 
 Note that this function is compatible with RDF4J 3.
 
+The function URI is `http://akaene.com/ontologies/rdf4j/function/isDate`.
+
 ## License
 
 MIT
